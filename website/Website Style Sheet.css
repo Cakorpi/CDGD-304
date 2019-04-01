@@ -1,0 +1,98 @@
+
+
+
+
+
+           body { background-color:#000000;}
+        
+            
+            
+            
+            
+
+            
+            
+     
+h1{width: 500px;
+    line-height: 20px;
+    font-family: "Termina", sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 700;
+    font-size:1empx;
+    letter-spacing: 1px;
+    line-height: 00px;  
+    
+            }
+            
+        
+a{width: 500px;
+    margin: 200px;
+    font-family: "Sharp Grotesk", sans-serif;
+    font-style: 10;
+    margin-left: 40px;
+    color: white;
+    font-weight: normal;
+    font-size:60px;
+    letter-spacing: 1px;
+    line-height: 200px;
+    text-decoration: none;
+    transition:color .7 ease;
+
+            }
+             
+a:link { COLOR: white; TEXT-DECORATION: none; font-weight: normal }
+a:visited { COLOR: white; TEXT-DECORATION: none; font-weight: normal }
+a:active { COLOR: white; TEXT-DECORATION: none }
+a:hover { COLOR: hotpink; TEXT-DECORATION: none; font-weight: none }
+
+            }
+             
+            
+            
+      .row {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 0%;
+  padding:  200px;
+}
+
+.column img {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    height: 30%; width: 30%;
+
+}
+
+.row img {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    vertical-align: middle;
+    height: 28%; width: 28%;
+
+}
+             
+                 
+
+    
+ }      
+        
+
+            
+       
+       
+        
+       
+            
+        
+            
+        </style>

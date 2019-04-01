@@ -1,0 +1,29 @@
+Body {
+    font-family: eurostile ;
+    color:red;
+    
+    }
+
+H2{
+    color: blue;
+    font-family:  
+}
+
+.container > .special_h2 {
+    color: green;
+    }
+
+h2.special_h2 {
+    color: green;
+    }
+
+
+#awesome {
+background-color: black;
+}
+
+.grid_parent {display:grid; 
+grid-template-columns: 1fr 1fr ;
+grid-column-gap: 2em;
+    
+}
