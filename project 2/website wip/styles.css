@@ -1,0 +1,51 @@
+html {
+    font-size: 16px ;
+}
+
+body {
+/*    background-color: red ;*/
+    margin: 3em ;    
+    font-family: 'Archivo', sans-serif;
+    background-image: linear-gradient(-89deg, rgba(216,216,216,0.14) 0%, rgba(238,238,238,0.13) 100%);
+/*    margin: 0 ;*/
+    
+}
+
+header {
+    display: grid ;
+    grid-template-columns: 1fr 2fr ;
+}
+
+#logo {
+    font-family: Helvetica, Arial, sans-serif ;
+/*    font-family: Helvetica-BoldOblique;*/
+    font-size: 2.5rem;
+    color: #000000;
+    letter-spacing: -1px;
+    text-transform: uppercase ;
+    font-style: italic ;
+    font-weight: bold ;
+}
+
+nav ul {
+    list-style-type: none ;
+    text-align: right ;
+}
+
+nav ul li {
+    font-size: .8rem ; 
+    display: inline-block ;
+    margin-left: 20px ;
+}
+
+nav ul li.you_are_here {
+    border-bottom: 2px solid rgba(255, 96, 0, 0.85) ; 
+    padding-bottom: 4px ;
+    padding-left: 4px ;
+    padding-right: 4px ;
+}
+
+
+nav, div, p, h1, h2, h3, h4, h5, ul, li {
+/*    border: 3px solid red ;*/
+}
