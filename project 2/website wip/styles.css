@@ -45,6 +45,42 @@ nav ul li.you_are_here {
     padding-right: 4px ;
 }
 
+#main {
+    display: grid ;
+    grid-template-columns: 1fr 2fr ;
+/*    grid-template-rows: 300px 300px ;*/
+    margin-left: 2em ;
+    margin-right: 2em ;
+    margin-top: 2em ;
+}
+
+#photo_gallery_child {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-row-gap: 10px ;
+    grid-column-gap: 10px ;
+}
+
+#photo_gallery_child #photo_gallery_big {
+    grid-column-start: 1 ;
+    grid-column-end: 8 ;
+    width: 100% ;
+    height: 400px ;
+} 
+
+#photo_gallery_child {
+    padding: 1em ;
+    border-radius: 20px ;
+    background-color: #fff ;
+    box-shadow: 2px 0px 15px rgba(54, 54, 54, 0.29);
+}
+
+#photo_gallery_child div {
+    background-color: grey ;
+/*    width: 50px ;*/
+    height: 50px ;
+}
+
 
 nav, div, p, h1, h2, h3, h4, h5, ul, li {
 /*    border: 3px solid red ;*/
